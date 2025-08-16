@@ -229,74 +229,69 @@
     </section>
 
     <!-- Pendaftaran Section -->
-    <!-- Pendaftaran Section -->
 <section id="daftar" class="py-12 bg-indigo-50">
-    <div class="container mx-auto px-4">
-        <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
-            <div class="md:flex">
-                
-                <!-- Bagian Informasi -->
-                <div class="md:w-1/2 bg-indigo-600 text-white p-6 flex flex-col justify-center">
-                    <h2 class="text-xl font-bold mb-3">Bergabung dengan Dewan Kerja Ambalan</h2>
-                    <p class="mb-4 text-sm">Isi formulir pendaftaran ini untuk menjadi bagian dari komunitas kami. Tim kami akan menghubungi Anda untuk informasi lebih lanjut.</p>
-                    
-                    <div class="space-y-3 text-sm">
-                        <div class="flex items-center">
-                            <div class="bg-indigo-500 p-1 rounded-full mr-2">
-                                <i class="fas fa-check text-xs"></i>
-                            </div>
-                            <span>Pengembangan karakter dan kepemimpinan</span>
-                        </div>
-                        <div class="flex items-center">
-                            <div class="bg-indigo-500 p-1 rounded-full mr-2">
-                                <i class="fas fa-check text-xs"></i>
-                            </div>
-                            <span>Aktivitas menarik setiap bulan</span>
-                        </div>
-                        <div class="flex items-center">
-                            <div class="bg-indigo-500 p-1 rounded-full mr-2">
-                                <i class="fas fa-check text-xs"></i>
-                            </div>
-                            <span>Komunitas yang mendukung</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Bagian Form -->
-                <div class="md:w-1/2 p-6">
-                    <!-- Form Spesial Compact -->
-                    <form action="https://formspree.io/f/meozwqqw" method="POST">
-                        <div class="mb-3">
-                            <label for="nama" class="block text-gray-700 text-sm mb-1">Nama Lengkap</label>
-                            <input type="text" id="nama" name="nama" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 text-sm" required>
-                        </div>
-                        
-                        <div class="mb-3">
-                            <label for="kelas" class="block text-gray-700 text-sm mb-1">Kelas</label>
-                            <input type="text" id="kelas" name="kelas" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 text-sm" required>
-                        </div>
-                        
-                        <div class="mb-3">
-                            <label for="email" class="block text-gray-700 text-sm mb-1">Email/Nomor HP</label>
-                            <input type="text" id="email" name="email" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 text-sm" required>
-                        </div>
-                        
-                        <div class="mb-4">
-                            <label for="alasan" class="block text-gray-700 text-sm mb-1">Alasan Bergabung</label>
-                            <textarea id="alasan" name="alasan" rows="2" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 text-sm" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="w-full bg-indigo-600 text-white py-2.5 rounded-lg font-semibold hover:bg-indigo-700 text-sm transition">Kirim Pendaftaran</button>
-                    </form>
-                </div>
-                
+  <div class="container mx-auto px-4">
+    <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+      <div class="md:flex md:space-x-0">
+        
+        <!-- Bagian Informasi -->
+        <div class="md:w-1/2 bg-indigo-600 text-white p-6 flex flex-col justify-center">
+          <h2 class="text-xl font-bold mb-3">Bergabung dengan Dewan Kerja Ambalan</h2>
+          <p class="mb-4 text-sm">Isi formulir pendaftaran ini untuk menjadi bagian dari komunitas kami. Tim kami akan menghubungi Anda untuk informasi lebih lanjut.</p>
+          <div class="space-y-3 text-sm">
+            <div class="flex items-center">
+              <div class="bg-indigo-500 p-1 rounded-full mr-2">
+                <i class="fas fa-check text-xs"></i>
+              </div>
+              <span>Pengembangan karakter dan kepemimpinan</span>
             </div>
+            <div class="flex items-center">
+              <div class="bg-indigo-500 p-1 rounded-full mr-2">
+                <i class="fas fa-check text-xs"></i>
+              </div>
+              <span>Aktivitas menarik setiap bulan</span>
+            </div>
+            <div class="flex items-center">
+              <div class="bg-indigo-500 p-1 rounded-full mr-2">
+                <i class="fas fa-check text-xs"></i>
+              </div>
+              <span>Komunitas yang mendukung</span>
+            </div>
+          </div>
         </div>
+        
+        <!-- Bagian Form -->
+        <div class="md:w-1/2 p-6">
+          <form action="https://formspree.io/f/meozwqqw" method="POST">
+            
+            <div class="mb-4">
+              <label for="nama" class="block text-gray-700 mb-2">Nama Lengkap</label>
+              <input type="text" id="nama" name="nama" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" required>
+            </div>
+            
+            <div class="mb-4">
+              <label for="kelas" class="block text-gray-700 mb-2">Kelas</label>
+              <input type="text" id="kelas" name="kelas" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" required>
+            </div>
+            
+            <div class="mb-4">
+              <label for="kontak" class="block text-gray-700 mb-2">Email atau Nomor HP</label>
+              <input type="text" id="kontak" name="kontak" placeholder="Email atau 089xxxx" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" required>
+            </div>
+            
+            <div class="mb-6">
+              <label for="alasan" class="block text-gray-700 mb-2">Alasan Bergabung</label>
+              <textarea id="alasan" name="alasan" rows="3" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" required></textarea>
+            </div>
+            
+            <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition">Kirim Pendaftaran</button>
+          </form>
+        </div>
+        
+      </div>
     </div>
+  </div>
 </section>
-
-
-
     <!-- Media Sosial Section -->
     <section id="kontak" class="py-16 bg-gray-900 text-white">
         <div class="container mx-auto px-4">
@@ -335,5 +330,6 @@ dkasmkn1singgahan.wks</span>
                 <a href="#" class="flex flex-col items-center social-icon group">
 
                     <div class="bg
+
 
 
